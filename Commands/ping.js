@@ -8,7 +8,7 @@ exports.help = {
 }
 exports.run = async (bot, message, args, config) => {
     const embed = new Discord.EmbedBuilder()
-    .setTitle('`🪄` ▸ Bot Latency')
+    .setTitle('`🎱` ▸ Bot Latency')
     .setDescription(`> *Discord Api: \`${bot.ws.ping}\` ms.*`)
     .setFooter({ text: message.author.username, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
     .setColor(config.color)

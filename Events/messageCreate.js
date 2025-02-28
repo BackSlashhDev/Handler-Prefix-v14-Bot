@@ -9,7 +9,7 @@ module.exports = {
       const sendPrefixEmbed = () => {
         const embed = new Discord.EmbedBuilder()
           .setAuthor({ name: message.author.username, iconURL: message.author.displayAvatarURL({ dynamic: true }), url: 'https://discord.gg/uhq' })
-          .setTitle('`🪄` ▸ Prefix')
+          .setTitle('`🎱` ▸ Prefix')
           .setDescription(`> *Le préfixe du bot est \`${config.prefix}\`.*`)
           .setFooter({ text: message.guild.name, iconURL: message.guild.iconURL({ dynamic: true }) })
           .setColor(config.color)
